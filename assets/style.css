@@ -15,11 +15,30 @@
 .navbar .navbar-brand:hover {
   color: #0d39fd;
 }
+
 .navbar-toggler {
   padding: 6px 16px 12px !important;
 }
+
 .navbar-toggler span,
 .navbar-toggler i {
   font-size: 14px;
   color: #212529;
+}
+
+.masthead {
+  background-color: #f8f9fa;
+}
+
+.modal-header {
+  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  color: white !important;
+}
+
+.btn-close:hover {
+  color: white;
+}
+
+.modal-body textarea {
+  min-height: 60px !important;
 }
