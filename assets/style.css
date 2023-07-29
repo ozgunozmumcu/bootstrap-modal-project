@@ -28,6 +28,8 @@
 
 .masthead {
   background-color: #f8f9fa;
+  padding-top: 9.5rem !important;
+  padding-bottom: 100px;
 }
 
 .modal-header {
@@ -41,4 +43,60 @@
 
 .modal-body textarea {
   min-height: 60px !important;
+}
+
+.app-store-badge {
+  height: 48px;
+}
+
+.masthead h1 {
+  line-height: 1 !important;
+}
+
+aside {
+  background: linear-gradient(45deg, #2937f0, #9f1ae2);
+}
+
+aside img {
+  width: 113px;
+}
+
+.circle {
+  z-index: 0;
+  position: absolute;
+  background: linear-gradient(50deg, #2937f0, #9f1ae2);
+  border-radius: 50%;
+  height: 410px;
+  width: 410px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 576px) {
+  .circle {
+    display: none;
+  }
+}
+
+.header-img-phone {
+  height: 541px;
+  z-index: 1;
+}
+
+.shape-2 {
+  position: absolute;
+  height: 0.75rem;
+  width: 0.75rem;
+  fill: #2937f0;
+  top: 15%;
+  right: 10%;
+}
+
+.shape-1 {
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  transform: rotate(-10deg);
+  fill: #2937f0;
+  bottom: 15%;
+  left: 10%;
 }

@@ -21,7 +21,7 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg shadow-sm bg-white">
+    <nav class="navbar navbar-expand-lg shadow-sm bg-white fixed-top">
       <div class="container px-5 py-2">
         <a class="navbar-brand fw-bold" href="#">Start Bootstrap</a>
         <button
@@ -39,10 +39,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 mx-4 ms-auto">
             <li class="nav-item me-3">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#">Download</a>
+              <a class="nav-link" href="#download">Download</a>
             </li>
           </ul>
           <button
@@ -59,11 +59,97 @@
     </nav>
     <header class="masthead">
       <div class="container px-5">
-        <div class="row">
-          <div class="col-6"></div>
+        <div class="row align-items-center gx-5">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="display-1 mb-2">Lorem ipsum dolor sit.</h1>
+            <p class="lead text-muted fw-normal mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              non?
+            </p>
+            <div class="d-flex flex-column flex-lg-row">
+              <a href="">
+                <img
+                  class="app-store-badge mb-4 me-lg-4"
+                  src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/google-play-badge.svg"
+                  alt=""
+                />
+              </a>
+              <a href="">
+                <img
+                  class="app-store-badge"
+                  src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/app-store-badge.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="d-flex justify-content-center align-items-center position-relative"
+            >
+              <img
+                class="header-img-phone"
+                src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/phone-screen.png"
+                alt=""
+              />
+              <div class="circle"></div>
+              <svg
+                class="shape-1 d-none d-sm-block"
+                viewBox="0 0 240.83 240.83"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="-32.54"
+                  y="78.39"
+                  width="305.92"
+                  height="84.05"
+                  rx="42.03"
+                  transform="translate(120.42 -49.88) rotate(45)"
+                ></rect>
+                <rect
+                  x="-32.54"
+                  y="78.39"
+                  width="305.92"
+                  height="84.05"
+                  rx="42.03"
+                  transform="translate(-49.88 120.42) rotate(-45)"
+                ></rect>
+              </svg>
+              <svg
+                class="shape-2 d-none d-sm-block"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="50" cy="50" r="50"></circle>
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
     </header>
+    <aside class="text-center">
+      <div class="container p-5">
+        <div class="row justify-content-center py-4">
+          <div class="col-xl-8">
+            <div class="h2 fs-1 text-white mb-4">
+              "An intuitive solution to a common problem that we all face,
+              wrapped up in a single app!"
+            </div>
+            <img
+              src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/tnw-logo.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </aside>
+    <section id="features">
+      <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+          <div class="col-lg-8 order-lg-2 mb-5 mb-lg-0"></div>
+        </div>
+      </div>
+    </section>
     <div class="modal" id="modal" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
