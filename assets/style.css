@@ -71,17 +71,6 @@ aside img {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 576px) {
-  .circle {
-    display: none;
-  }
-}
-
-.header-img-phone {
-  height: 541px;
-  z-index: 1;
-}
-
 .shape-2 {
   position: absolute;
   height: 0.75rem;
@@ -99,4 +88,43 @@ aside img {
   fill: #2937f0;
   bottom: 15%;
   left: 10%;
+}
+
+@media screen and (min-width: 1400px) {
+  .header-img-phone {
+    height: 541px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .header-img-phone {
+    height: 477px;
+    z-index: 1;
+  }
+  .circle {
+    height: 375px;
+    width: 375px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-img-phone {
+    height: 400px;
+    z-index: 1;
+  }
+  .circle {
+    height: 310px;
+    width: 310px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header-img-phone {
+    height: 320px;
+    z-index: 1;
+  }
+  .circle {
+    display: none;
+  }
 }
